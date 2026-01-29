@@ -2,24 +2,25 @@
 
 /* ===== COLOR THEME - UPDATE THESE FOR YOUR TOPIC ===== */
 :root {
-  /* Primary Color - Gym/Fitness Theme (Energetic Orange) */
-  --primary: #ea580c;
-  /* orange-600 */
-  --primary-light: #fb923c;
-  /* orange-400 */
-  --primary-dark: #9a3412;
-  /* orange-800 */
+  /* Primary Color - Donut Restaurant Theme (Pink) */
+  --primary: #ec4899;
+  /* Pink-500 */
+  --primary-light: #f472b6;
+  /* Pink-400 */
+  --primary-dark: #db2777;
+  /* Pink-600 */
 
-  /* Background Colors - Dark Mode Default for Gym */
-  --background: #0a0a0a;
-  /* Very dark gray/black */
-  --foreground: #fafafa;
-  /* Almost white */
+  /* Background Colors - Light Mode for Sweet Vibe */
+  --background: #fff1f2;
+  /* Rose-50 */
+  --foreground: #4a044e;
+  /* Fuchsia-950 - Deep dark purple for text contrast */
 
   /* Accent Colors */
-  --accent: #262626;
-  /* dark neutral */
-  --accent-dark: #000000;
+  --accent: #fce7f3;
+  /* Pink-100 */
+  --accent-dark: #fbcfe8;
+  /* Pink-200 */
 }
 
 /* Quick Theme Overrides - Uncomment the theme you need */

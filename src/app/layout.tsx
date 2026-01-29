@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Oswald, Geist, Geist_Mono } from "next/font/google";
+import { Fredoka, Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const oswald = Oswald({
+const fredoka = Fredoka({
   subsets: ["latin"],
-  variable: "--font-oswald",
+  variable: "--font-main",
   display: "swap",
 });
 
@@ -19,8 +19,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "IronForge Fitness",
-  description: "Forge Your Ultimate Physique",
+  title: "Glaze & Sprinkle",
+  description: "Sweet Happiness in Every Bite",
 };
 
 export default function RootLayout({
@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${oswald.variable} ${geistSans.variable} ${geistMono.variable} antialiased font-[family-name:var(--font-oswald)]`}
+        className={`${fredoka.variable} ${geistSans.variable} ${geistMono.variable} antialiased font-[family-name:var(--font-main)]`}
       >
         {children}
       </body>

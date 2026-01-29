@@ -3,88 +3,88 @@
 
 export const siteConfig = {
   // Brand Info
-  name: "IronForge Fitness",
-  tagline: "Forge Your Ultimate Physique",
-  description: "Unleash your potential with state-of-the-art equipment, elite personal trainers, and a community dedicated to strength and result.",
+  name: "Glaze & Sprinkle",
+  tagline: "Sweet Happiness in Every Bite",
+  description: "Freshly baked, hand-crafted donuts made with love and premium ingredients. From classic glazed to gourmet pink creations.",
 
   // Call to Action
   cta: {
-    primary: "Join Now",
-    secondary: "Free Trial",
+    primary: "Order Now",
+    secondary: "Our Menu",
   },
 
   // Navigation Links
   nav: [
     { label: "Home", href: "#" },
-    { label: "Programs", href: "#programs" },
-    { label: "Trainers", href: "#trainers" },
-    { label: "Membership", href: "#membership" },
+    { label: "Menu", href: "#menu" },
+    { label: "Locations", href: "#locations" },
+    { label: "Catering", href: "#catering" },
   ],
 
   // Features Section - Add 3-4 key features
   features: [
     {
-      icon: "💪",
-      title: "Elite Equipment",
-      description: "Train with the best. Our floor is stocked with top-tier Hammer Strength and Rogue equipment.",
+      icon: "🍩",
+      title: "Freshly Baked",
+      description: "Baked fresh every single morning. We never sell day-old donuts.",
     },
     {
-      icon: "⏱️",
-      title: "24/7 Access",
-      description: "Fitness on your schedule. We never close, so you can train whenever inspiration strikes.",
+      icon: "🍓",
+      title: "Premium Ingredients",
+      description: "Real fruit, Belgian chocolate, and organic flour. Taste the difference.",
     },
     {
-      icon: "🧘",
-      title: "Recovery Zone",
-      description: "Maximize gains with our sauna, steam room, and cryotherapy recovery center.",
+      icon: "🎁",
+      title: "Custom Boxes",
+      description: "Create your own box of happiness. Perfect for gifts and parties.",
     },
     {
-      icon: "👥",
-      title: "Group Classes",
-      description: "High-intensity interval training, powerlifting workshops, and yoga flows daily.",
+      icon: "🚚",
+      title: "Event Catering",
+      description: "Make your wedding or corporate event sweet with our donut walls and towers.",
     },
   ],
 
   // About Section
   about: {
-    title: "About IronForge",
-    subtitle: "Built for Strength",
-    description: "IronForge Fitness wasn't created to be just another gym. It was built to be a sanctuary for those who refuse to settle for average. Founded by elite athletes, we provide the environment, tools, and expertise you need to shatter your limits.",
+    title: "Our Sweet Story",
+    subtitle: "Baked with Love",
+    description: "Glaze & Sprinkle started with a simple mission: to make the world a sweeter place, one donut at a time. What began as a small family kitchen experiment has grown into the city's favorite spot for pink treats.",
     highlights: [
-      "Certified Elite Trainers",
-      "State-of-the-Art Facility",
-      "Results-Driven Culture",
+      "Family Owned & Operated",
+      "100+ Unique Flavors",
+      "Community Focused",
     ],
   },
 
   // Testimonials
   testimonials: [
     {
-      name: "Marcus T.",
-      role: "Bodybuilder",
-      text: "The atmosphere here is unmatched. Everyone is focused, the equipment is perfect, and the vibe pushes you to lift heavier.",
-      avatar: "🏋️‍♂️",
+      name: "Emma W.",
+      role: "Donut Lover",
+      text: "The pink velvet donut is hands down the best thing I've ever eaten. I come here every weekend!",
+      avatar: "👩",
     },
     {
-      name: "Sarah J.",
-      role: "CrossFit Athlete",
-      text: "I love the 24/7 access. No matter my work schedule, IronForge is always open for me to get my grind on.",
-      avatar: "🏃‍♀️",
+      name: "Mike R.",
+      role: "Food Blogger",
+      text: "Not just pretty to look at - these donuts are light, fluffy, and perfectly sweet. A must-visit.",
+      avatar: "📸",
     },
     {
-      name: "David K.",
-      role: "Member since 2023",
-      text: "The trainers actually care about your progress. I've seen more results in 3 months here than 3 years at my old gym.",
-      avatar: "💪",
+      name: "Sophie L.",
+      role: "Event Planner",
+      text: "Ordered 500 donuts for a wedding and they were a hit! The presentation was absolutely stunning.",
+      avatar: "🎉",
     },
   ],
 
   // Contact Information
   contact: {
-    phone: "+1 (555) 019-2834",
-    email: "join@ironforge.fit",
-    address: "888 Titan Way, Metro City",
-    hours: "Open 24/7",
+    phone: "+1 (555) 366-8899",
+    email: "hello@glazesprinkle.com",
+    address: "123 Sweet Street, Candy City",
+    hours: "Mon-Sun: 6am - 8pm",
   },
 
   // Social Media Links
@@ -97,8 +97,8 @@ export const siteConfig = {
 
   // Footer
   footer: {
-    copyright: `© ${new Date().getFullYear()} IronForge Fitness. All rights reserved.`,
-    tagline: "Forged in Iron. Built for Life.",
+    copyright: `© ${new Date().getFullYear()} Glaze & Sprinkle. All rights reserved.`,
+    tagline: "Life is short, eat the donut.",
   },
 };
 
