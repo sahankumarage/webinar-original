@@ -1,26 +1,26 @@
 @import "tailwindcss";
 
-/* ===== COLOR THEME - UPDATE THESE FOR YOUR TOPIC ===== */
+/* ===== COLOR THEME - LUXURY GEMS BUSINESS ===== */
 :root {
-  /* Primary Color - Donut Restaurant Theme (Pink) */
-  --primary: #ec4899;
-  /* Pink-500 */
-  --primary-light: #f472b6;
-  /* Pink-400 */
-  --primary-dark: #db2777;
-  /* Pink-600 */
+  /* Primary Color - Royal Purple for Luxury Gems */
+  --primary: #7c3aed;
+  /* Violet-600 */
+  --primary-light: #a78bfa;
+  /* Violet-400 */
+  --primary-dark: #5b21b6;
+  /* Violet-800 */
 
-  /* Background Colors - Light Mode for Sweet Vibe */
-  --background: #fff1f2;
-  /* Rose-50 */
-  --foreground: #4a044e;
-  /* Fuchsia-950 - Deep dark purple for text contrast */
+  /* Background Colors - Dark Mode for Premium Luxury Feel */
+  --background: #0c0a1d;
+  /* Deep Dark Purple */
+  --foreground: #f5f3ff;
+  /* Violet-50 - Light text for dark mode */
 
-  /* Accent Colors */
-  --accent: #fce7f3;
-  /* Pink-100 */
-  --accent-dark: #fbcfe8;
-  /* Pink-200 */
+  /* Accent Colors - Gold for Luxury */
+  --accent: #fbbf24;
+  /* Amber-400 - Gold */
+  --accent-dark: #d97706;
+  /* Amber-600 - Deep Gold */
 }
 
 /* Quick Theme Overrides - Uncomment the theme you need */

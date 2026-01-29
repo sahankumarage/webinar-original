@@ -1,90 +1,90 @@
-// Site Configuration - Update these values based on your topic!
+// Site Configuration - Luxury Gems Business
 // This is the central place to configure all content
 
 export const siteConfig = {
   // Brand Info
-  name: "Glaze & Sprinkle",
-  tagline: "Sweet Happiness in Every Bite",
-  description: "Freshly baked, hand-crafted donuts made with love and premium ingredients. From classic glazed to gourmet pink creations.",
+  name: "Royal Gems Collection",
+  tagline: "Exquisite Gemstones, Timeless Elegance",
+  description: "Discover the world's finest sapphires, rubies, emeralds, and diamonds. Ethically sourced, expertly cut, and certified for exceptional brilliance and lasting beauty.",
 
   // Call to Action
   cta: {
-    primary: "Order Now",
-    secondary: "Our Menu",
+    primary: "Explore Collection",
+    secondary: "Book Consultation",
   },
 
   // Navigation Links
   nav: [
     { label: "Home", href: "#" },
-    { label: "Menu", href: "#menu" },
-    { label: "Locations", href: "#locations" },
-    { label: "Catering", href: "#catering" },
+    { label: "Collection", href: "#features" },
+    { label: "About", href: "#about" },
+    { label: "Contact", href: "#contact" },
   ],
 
   // Features Section - Add 3-4 key features
   features: [
     {
-      icon: "🍩",
-      title: "Freshly Baked",
-      description: "Baked fresh every single morning. We never sell day-old donuts.",
+      icon: "💎",
+      title: "Certified Gemstones",
+      description: "Every stone comes with GIA or IGI certification, guaranteeing authenticity and quality.",
     },
     {
-      icon: "🍓",
-      title: "Premium Ingredients",
-      description: "Real fruit, Belgian chocolate, and organic flour. Taste the difference.",
+      icon: "✨",
+      title: "Expert Craftsmanship",
+      description: "Master gem cutters with 30+ years of experience, maximizing brilliance and fire.",
     },
     {
-      icon: "🎁",
-      title: "Custom Boxes",
-      description: "Create your own box of happiness. Perfect for gifts and parties.",
+      icon: "🌍",
+      title: "Ethically Sourced",
+      description: "Conflict-free gems from sustainable mines. Full traceability from origin to you.",
     },
     {
-      icon: "🚚",
-      title: "Event Catering",
-      description: "Make your wedding or corporate event sweet with our donut walls and towers.",
+      icon: "👑",
+      title: "Bespoke Services",
+      description: "Custom jewelry design and setting. Transform your vision into a timeless masterpiece.",
     },
   ],
 
   // About Section
   about: {
-    title: "Our Sweet Story",
-    subtitle: "Baked with Love",
-    description: "Glaze & Sprinkle started with a simple mission: to make the world a sweeter place, one donut at a time. What began as a small family kitchen experiment has grown into the city's favorite spot for pink treats.",
+    title: "The Art of Precious Stones",
+    subtitle: "Three Generations of Excellence",
+    description: "Royal Gems Collection represents three generations of passion for the world's most precious stones. From our humble beginnings in Colombo's gem markets to serving collectors worldwide, we've maintained an unwavering commitment to quality, authenticity, and exceptional service.",
     highlights: [
-      "Family Owned & Operated",
-      "100+ Unique Flavors",
-      "Community Focused",
+      "50+ Years of Expertise",
+      "10,000+ Satisfied Clients",
+      "Worldwide Shipping & Insurance",
     ],
   },
 
   // Testimonials
   testimonials: [
     {
-      name: "Emma W.",
-      role: "Donut Lover",
-      text: "The pink velvet donut is hands down the best thing I've ever eaten. I come here every weekend!",
-      avatar: "👩",
+      name: "Victoria M.",
+      role: "Collector",
+      text: "The 5-carat Ceylon sapphire I purchased exceeded all expectations. The color and clarity are absolutely stunning.",
+      avatar: "👸",
     },
     {
-      name: "Mike R.",
-      role: "Food Blogger",
-      text: "Not just pretty to look at - these donuts are light, fluffy, and perfectly sweet. A must-visit.",
-      avatar: "📸",
+      name: "James H.",
+      role: "Jewelry Designer",
+      text: "I source all my premium stones from Royal Gems. Their consistency in quality and ethical practices are unmatched.",
+      avatar: "💍",
     },
     {
-      name: "Sophie L.",
-      role: "Event Planner",
-      text: "Ordered 500 donuts for a wedding and they were a hit! The presentation was absolutely stunning.",
-      avatar: "🎉",
+      name: "Priya S.",
+      role: "Investment Buyer",
+      text: "The team's expertise helped me build a remarkable colored gem portfolio. Professional and trustworthy.",
+      avatar: "📈",
     },
   ],
 
   // Contact Information
   contact: {
-    phone: "+1 (555) 366-8899",
-    email: "hello@glazesprinkle.com",
-    address: "123 Sweet Street, Candy City",
-    hours: "Mon-Sun: 6am - 8pm",
+    phone: "+94 11 234 5678",
+    email: "info@royalgems.lk",
+    address: "45 Gem Tower, Colombo 03, Sri Lanka",
+    hours: "Mon-Sat: 10am - 7pm",
   },
 
   // Social Media Links
@@ -97,8 +97,8 @@ export const siteConfig = {
 
   // Footer
   footer: {
-    copyright: `© ${new Date().getFullYear()} Glaze & Sprinkle. All rights reserved.`,
-    tagline: "Life is short, eat the donut.",
+    copyright: `© ${new Date().getFullYear()} Royal Gems Collection. All rights reserved.`,
+    tagline: "Where Brilliance Meets Legacy.",
   },
 };
 

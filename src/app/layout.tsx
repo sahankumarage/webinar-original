@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { Fredoka, Geist, Geist_Mono } from "next/font/google";
+import { Playfair_Display, Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const fredoka = Fredoka({
+const playfair = Playfair_Display({
   subsets: ["latin"],
   variable: "--font-main",
   display: "swap",
+  weight: ["400", "500", "600", "700"],
 });
 
 const geistSans = Geist({
@@ -19,8 +20,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Glaze & Sprinkle",
-  description: "Sweet Happiness in Every Bite",
+  title: "Royal Gems Collection",
+  description: "Exquisite Gemstones, Timeless Elegance",
 };
 
 export default function RootLayout({
@@ -31,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${fredoka.variable} ${geistSans.variable} ${geistMono.variable} antialiased font-[family-name:var(--font-main)]`}
+        className={`${playfair.variable} ${geistSans.variable} ${geistMono.variable} antialiased font-[family-name:var(--font-main)]`}
       >
         {children}
       </body>
