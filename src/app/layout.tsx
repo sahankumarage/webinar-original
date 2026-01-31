@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Geist, Geist_Mono } from "next/font/google";
+import { Poppins, Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const playfair = Playfair_Display({
+const poppins = Poppins({
   subsets: ["latin"],
   variable: "--font-main",
   display: "swap",
-  weight: ["400", "500", "600", "700"],
+  weight: ["300", "400", "500", "600", "700"],
 });
 
 const geistSans = Geist({
@@ -20,8 +20,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Royal Gems Collection",
-  description: "Exquisite Gemstones, Timeless Elegance",
+  title: "Prime Properties | Luxury Real Estate",
+  description: "Your Dream Home Awaits - Discover exclusive properties, premium estates, and luxury homes with Prime Properties.",
 };
 
 export default function RootLayout({
@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${playfair.variable} ${geistSans.variable} ${geistMono.variable} antialiased font-[family-name:var(--font-main)]`}
+        className={`${poppins.variable} ${geistSans.variable} ${geistMono.variable} antialiased font-[family-name:var(--font-main)]`}
       >
         {children}
       </body>

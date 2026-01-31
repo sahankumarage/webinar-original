@@ -1,26 +1,26 @@
 @import "tailwindcss";
 
-/* ===== COLOR THEME - LUXURY GEMS BUSINESS ===== */
+/* ===== COLOR THEME - LUXURY REAL ESTATE ===== */
 :root {
-  /* Primary Color - Royal Purple for Luxury Gems */
-  --primary: #7c3aed;
-  /* Violet-600 */
-  --primary-light: #a78bfa;
-  /* Violet-400 */
-  --primary-dark: #5b21b6;
-  /* Violet-800 */
+  /* Primary Color - Elegant Gold for Luxury Real Estate */
+  --primary: #ca8a04;
+  /* Yellow-600 - Premium Gold */
+  --primary-light: #facc15;
+  /* Yellow-400 - Bright Gold */
+  --primary-dark: #a16207;
+  /* Yellow-700 - Deep Gold */
 
-  /* Background Colors - Dark Mode for Premium Luxury Feel */
-  --background: #0c0a1d;
-  /* Deep Dark Purple */
-  --foreground: #f5f3ff;
-  /* Violet-50 - Light text for dark mode */
+  /* Background Colors - Dark Mode for Premium Exclusive Feel */
+  --background: #1c1917;
+  /* Stone-900 - Rich Dark Brown */
+  --foreground: #fef3c7;
+  /* Amber-100 - Warm Light Text */
 
-  /* Accent Colors - Gold for Luxury */
-  --accent: #fbbf24;
-  /* Amber-400 - Gold */
-  --accent-dark: #d97706;
-  /* Amber-600 - Deep Gold */
+  /* Accent Colors - Complementary */
+  --accent: #fef3c7;
+  /* Amber-100 - Soft Gold */
+  --accent-dark: #eab308;
+  /* Yellow-500 - Rich Gold */
 }
 
 /* Quick Theme Overrides - Uncomment the theme you need */
